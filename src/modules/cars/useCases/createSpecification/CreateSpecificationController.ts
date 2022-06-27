@@ -5,7 +5,7 @@ class CreateSpecificationController {
 
     constructor(private createSpecificationUseCase: CreateSpecificationUseCase) { }
 
-    handle(req: Request, res: Response) {
+    handle(req: Request, res: Response): Response {
         const { name, description } = req.body;
 
         this.createSpecificationUseCase.execute({ name, description });
