@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\modules",
+    "\\src\\modules\\cars",
+    "\\src\\modules\\cars\\model"
+  ],
+  "SelectedNode": "\\src\\modules\\cars\\model\\Category.ts",
+  "PreviewInSolutionExplorer": false
+}
