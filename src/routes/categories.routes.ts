@@ -14,6 +14,7 @@ categoriesRoutes.post('/', (req, res) => {
 });
 
 categoriesRoutes.post('/import', upload.single('file'), (req, res) => {
+   console.log("oioioi");
    importCategoryController.handle(req, res);
 })
 

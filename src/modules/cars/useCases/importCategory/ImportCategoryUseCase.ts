@@ -49,7 +49,7 @@ class ImportCategoryUseCase {
             if (!AlreadyExistsCategory) {
                 this.categoriesRepository.create({ name, description });
             }
-        })
+        });
     }
 
 }
